@@ -1,56 +1,30 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- |
+# Pokeball Web App Project
 
-# Wi-Fi SoftAP Example
+This repository contains the source code for the **Pokeball Web App Project**, a creative IoT application using the ESP32-S3 and ESP-IDF framework. The project integrates a web application hosted on the ESP32-S3, allowing users to interact with the device wirelessly.
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## Features
+- Hosted web app for seamless control of the Pokeball.
+- Built using ESP-IDF for reliable and efficient performance.
+- Designed for creative, interactive IoT experiences.
 
-This example shows how to use the Wi-Fi SoftAP functionality of the Wi-Fi driver of ESP for serving as an Access Point.
+## Blog Posts
+This project is part of the Pokeball series. Check out the related blog posts for more details about the design and development process:
 
-## How to use example
+1. **[Pokeball Part 1: Concept and Design](<insert-link>)**  
+   Explore the initial concept, design goals, and hardware selection for the Pokeball project.
 
-SoftAP supports Protected Management Frames(PMF). Necessary configurations can be set using pmf flags. Please refer [Wifi-Security](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wifi-security.html) for more info.
+2. **[Pokeball Part 2: Firmware Development](<insert-link>)**  
+   Dive into the ESP-IDF firmware development process, including web app integration and testing.
 
-### Configure the project
+3. **[Pokeball Part 3: Final Touches and Demo](<insert-link>)**  
+   Learn about the final steps, including polishing the project, addressing challenges, and showcasing a working demo.
 
-Open the project configuration menu (`idf.py menuconfig`).
+## Requirements
+- ESP-IDF (latest version recommended)
+- ESP32-S3 development board
+- A web browser for accessing the web app
 
-In the `Example Configuration` menu:
-
-* Set the Wi-Fi configuration.
-    * Set `WiFi SSID`.
-    * Set `WiFi Password`.
-
-Optional: If you need, change the other options according to your requirements.
-
-### Build and Flash
-
-Build the project and flash it to the board, then run the monitor tool to view the serial output:
-
-Run `idf.py -p PORT flash monitor` to build, flash and monitor the project.
-
-(To exit the serial monitor, type ``Ctrl-]``.)
-
-See the Getting Started Guide for all the steps to configure and use the ESP-IDF to build projects.
-
-* [ESP-IDF Getting Started Guide on ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
-* [ESP-IDF Getting Started Guide on ESP32-S2](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
-* [ESP-IDF Getting Started Guide on ESP32-C3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html)
-
-## Example Output
-
-There is the console output for this example:
-
-```
-I (917) phy: phy_version: 3960, 5211945, Jul 18 2018, 10:40:07, 0, 0
-I (917) wifi: mode : softAP (30:ae:a4:80:45:69)
-I (917) wifi softAP: wifi_init_softap finished.SSID:myssid password:mypassword
-I (26457) wifi: n:1 0, o:1 0, ap:1 1, sta:255 255, prof:1
-I (26457) wifi: station: 70:ef:00:43:96:67 join, AID=1, bg, 20
-I (26467) wifi softAP: station:70:ef:00:43:96:67 join, AID=1
-I (27657) esp_netif_lwip: DHCP server assigned IP to a station, IP is: 192.168.4.2
-```
-
-## Troubleshooting
-
-For any technical queries, please open an [issue](https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
+## Getting Started
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/<your-username>/pokeball-web-app.git
