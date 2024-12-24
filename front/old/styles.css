@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background for contrast */
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid #ccc; /* Optional border around the canvas */
+}
+
+/* Container for canvas and color picker */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Space between the canvas and the color picker */
+.color-picker-container {
+    margin-top: 10px;
+    text-align: center;
+}
