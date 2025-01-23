@@ -16,7 +16,7 @@ This project is part of the Pokeball series. Check out the related blog posts fo
 2. **[Pokeball Part 2: Firmware Development](<https://www.gabrielecalabrese.com/2024/11/11/building-a-wifi-controlled-device-with-esp32-s3-adding-a-web-interface-part-2/>)**  
    Dive into the ESP-IDF firmware development process, including web app integration.
 
-3. **[Pokeball Part 3: Final Touches and Demo](<insert-link>)**  
+3. **[Pokeball Part 3: Final Touches and Demo](<https://www.gabrielecalabrese.com/2024/12/27/building-a-wifi-controlled-device-with-esp32-s3-adding-a-web-socket-part-3/>)**  
    Learn about the final steps, including json parsing for websocket data exchange and showcasing a working demo.
 
 ## Requirements
